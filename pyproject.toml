@@ -1,0 +1,17 @@
+[project]
+
+name = "gazebo-robotraconteur-sim-drivers"
+version = "0.1.0"
+authors = [
+    {name = "John Wason", email = "wason@wasontech.com"}
+]
+description = "Simulated Robot Raconteur drivers for Gazebo virtual devices"
+license = {text = "Apache-2.0"}
+dependencies = [
+    "robotraconteur",
+    "robotraconteurcompanion",
+    "drekar-launch-process",
+    "robotraconteur-abstract-robot-python",
+    "opencv-contrib-python"
+]
+
